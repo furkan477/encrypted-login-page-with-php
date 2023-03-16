@@ -36,12 +36,12 @@
                     exit();
                     
                 }else {
-                    $_SESSION['error'] = 'Kayıtlı Kullanıcı Bulunamadı';
+                    $_SESSION['error'] = 'Şifrenizi Hatalı Girdiniz.';
                     header('Location:login.php');
                     exit();
                 }
             } else{
-                $_SESSION['error'] = 'Kayıtlı Kullanıcı Bulunamadı';
+                $_SESSION['error'] = 'Kullanıcı Adınızı Hatalı Girdiniz.';
                 header('Location:login.php');
                 exit();
             }
